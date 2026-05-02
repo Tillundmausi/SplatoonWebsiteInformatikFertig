@@ -1,5 +1,3 @@
-import './style.css';
-
 const CDN = 'https://cdn.wikimg.net/en/splatoonwiki/images';
 
 const subIcons = {
