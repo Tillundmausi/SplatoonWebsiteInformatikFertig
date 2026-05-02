@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://cdn.wikimg.net/en/splatoonwiki/images/a/a1/Splatoon_3_%223%22_icon.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splatoon Waffen Arsenal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-paint-splatter"></div>
+        <nav class="nav">
+          <div class="logo">
+            <img src="https://cdn.wikimg.net/en/splatoonwiki/images/a/a1/Splatoon_3_%223%22_icon.svg" alt="S3" class="logo-icon-img" />
+            <span class="logo-text">Waffen Arsenal</span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#hero">Start</a></li>
+            <li><a href="#categories">Kategorien</a></li>
+            <li><a href="#arsenal">Arsenal</a></li>
+            <li><a href="#stats">Statistiken</a></li>
+          </ul>
+          <button class="nav-toggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </nav>
+        <div class="hero" id="hero">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span class="hero-title-line">Splatoon</span>
+              <span class="hero-title-line accent">Waffen Arsenal</span>
+            </h1>
+            <p class="hero-subtitle">Schau dir alle Waffen, ihre Stats und Strategien an</p>
+            <div class="hero-actions">
+              <a href="#arsenal" class="btn btn-primary">Arsenal erkunden</a>
+              <a href="#categories" class="btn btn-secondary">Kategorien</a>
+            </div>
+          </div>
+          <div class="hero-ink-splat"></div>
+          <div class="hero-decoration hero-deco-left">
+            <img src="https://cdn.wikimg.net/en/splatoonwiki/images/0/00/S3_Grand_Festival_graffiti_stickers_01.png" alt="" loading="lazy" />
+          </div>
+          <div class="hero-decoration hero-deco-right">
+            <img src="https://cdn.wikimg.net/en/splatoonwiki/images/3/33/S3_Grand_Festival_graffiti_stickers_02.png" alt="" loading="lazy" />
+          </div>
+        </div>
+      </header>
+
+      <!-- Stats Bar -->
+      <section class="stats-bar" id="stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="62">0</span>
+          <span class="stat-label">Waffen</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="8">0</span>
+          <span class="stat-label">Kategorien</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="3">0</span>
+          <span class="stat-label">Spiele</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-label">Spezialwaffen</span>
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section class="categories" id="categories">
+        <div class="section-header">
+          <h2 class="section-title">Waffenkategorien</h2>
+          <p class="section-subtitle">Jede Kategorie hat ihren eigenen Spielstil</p>
+        </div>
+        <div class="category-grid">
+          <div class="category-card" data-category="shooter">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/c/c8/S3_Icon_Shooter.png" alt="Shooter" loading="lazy" />
+            </div>
+            <h3 class="category-name">Shooter</h3>
+            <p class="category-desc">Schnelle Feuerrate, vielseitig im Einsatz</p>
+            <span class="category-count">17 Waffen</span>
+          </div>
+          <div class="category-card" data-category="roller">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/f/fb/S3_Icon_Roller.png" alt="Roller" loading="lazy" />
+            </div>
+            <h3 class="category-name">Roller</h3>
+            <p class="category-desc">Flache den Boden, ueberrenne Gegner</p>
+            <span class="category-count">7 Waffen</span>
+          </div>
+          <div class="category-card" data-category="charger">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/a/a0/S3_Icon_Charger.png" alt="Charger" loading="lazy" />
+            </div>
+            <h3 class="category-name">Charger</h3>
+            <p class="category-desc">Lange Reichweite, hohe Praezision</p>
+            <span class="category-count">8 Waffen</span>
+          </div>
+          <div class="category-card" data-category="slosher">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/2/2f/S3_Icon_Slosher.png" alt="Slosher" loading="lazy" />
+            </div>
+            <h3 class="category-name">Slosher</h3>
+            <p class="category-desc">Wurfattacken ueber Hindernisse</p>
+            <span class="category-count">5 Waffen</span>
+          </div>
+          <div class="category-card" data-category="splatling">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/a/af/S3_Icon_Splatling.png" alt="Splatling" loading="lazy" />
+            </div>
+            <h3 class="category-name">Splatling</h3>
+            <p class="category-desc">Hohe Feuerrate nach Aufladezeit</p>
+            <span class="category-count">6 Waffen</span>
+          </div>
+          <div class="category-card" data-category="blaster">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/5/5b/S3_Icon_Blaster.png" alt="Blaster" loading="lazy" />
+            </div>
+            <h3 class="category-name">Blaster</h3>
+            <p class="category-desc">Explosive Projektile mit Flaechenwirkung</p>
+            <span class="category-count">8 Waffen</span>
+          </div>
+          <div class="category-card" data-category="brush">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/7/77/S3_Icon_Brush.png" alt="Pinsel" loading="lazy" />
+            </div>
+            <h3 class="category-name">Pinsel</h3>
+            <p class="category-desc">Schnelle Bewegung, Surprise-Attacken</p>
+            <span class="category-count">4 Waffen</span>
+          </div>
+          <div class="category-card" data-category="brella">
+            <div class="category-icon">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/0/0d/S3_Icon_Brella.png" alt="Brella" loading="lazy" />
+            </div>
+            <h3 class="category-name">Brella</h3>
+            <p class="category-desc">Schutzschild und Fernkampf</p>
+            <span class="category-count">4 Waffen</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Arsenal -->
+      <section class="arsenal" id="arsenal">
+        <div class="section-header">
+          <h2 class="section-title">Waffen Arsenal</h2>
+          <p class="section-subtitle">Finde die perfekte Waffe fuer deinen Spielstil</p>
+        </div>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">Alle</button>
+          <button class="filter-btn" data-filter="shooter">Shooter</button>
+          <button class="filter-btn" data-filter="roller">Roller</button>
+          <button class="filter-btn" data-filter="charger">Charger</button>
+          <button class="filter-btn" data-filter="slosher">Slosher</button>
+          <button class="filter-btn" data-filter="splatling">Splatling</button>
+          <button class="filter-btn" data-filter="blaster">Blaster</button>
+          <button class="filter-btn" data-filter="brush">Pinsel</button>
+          <button class="filter-btn" data-filter="brella">Brella</button>
+        </div>
+        <div class="weapon-grid" id="weaponGrid">
+          <!-- Weapons injected by JS -->
+        </div>
+      </section>
+
+      <!-- Special Weapons -->
+      <section class="specials">
+        <div class="section-header">
+          <h2 class="section-title">Spezialwaffen</h2>
+          <p class="section-subtitle">Maechtige Faehigkeiten fuer entscheidende Momente</p>
+        </div>
+        <div class="special-grid">
+          <div class="special-card">
+            <div class="special-icon" style="--special-color: #22d3ee;">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/9/93/S3_Weapon_Special_Trizooka.png" alt="Dreifach-Schwapper" loading="lazy" />
+            </div>
+            <h3>Dreifach-Schwapper</h3>
+            <p>Drei maechtige Tintenschuesse auf einmal</p>
+          </div>
+          <div class="special-card">
+            <div class="special-icon" style="--special-color: #a855f7;">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/6/69/S3_Weapon_Special_Ink_Storm.png" alt="Tintensturm" loading="lazy" />
+            </div>
+            <h3>Tintensturm</h3>
+            <p>Ein Tintentornado zieht ueber das Feld</p>
+          </div>
+          <div class="special-card">
+            <div class="special-icon" style="--special-color: #22c55e;">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/8/80/S3_Weapon_Special_Inkjet.png" alt="Inkjet" loading="lazy" />
+            </div>
+            <h3>Inkjet</h3>
+            <p>Flieg und schiesse aus der Luft</p>
+          </div>
+          <div class="special-card">
+            <div class="special-icon" style="--special-color: #eab308;">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/0/00/S3_Weapon_Special_Booyah_Bomb.png" alt="Juhu-Bombe" loading="lazy" />
+            </div>
+            <h3>Juhu-Bombe</h3>
+            <p>Lade eine gewaltige Tintenexplosion auf</p>
+          </div>
+          <div class="special-card">
+            <div class="special-icon" style="--special-color: #ef4444;">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/1/1a/S3_Weapon_Special_Killer_Wail_5.1.png" alt="Killer-Wal 5.1" loading="lazy" />
+            </div>
+            <h3>Killer-Wal 5.1</h3>
+            <p>Ein verheerender Schallstrahl trifft Gegner</p>
+          </div>
+          <div class="special-card">
+            <div class="special-icon" style="--special-color: #f97316;">
+              <img src="https://cdn.wikimg.net/en/splatoonwiki/images/8/88/S3_Weapon_Special_Crab_Tank.png" alt="Krabbenkran" loading="lazy" />
+            </div>
+            <h3>Krabbenkran</h3>
+            <p>Ein gepanzerter Panzer mit Tintenkanone</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <img src="https://cdn.wikimg.net/en/splatoonwiki/images/a/a1/Splatoon_3_%223%22_icon.svg" alt="S3" class="logo-icon-img" />
+            <span class="logo-text">Waffen Arsenal</span>
+          </div>
+          <p class="footer-copy">Splatoon ist eine Marke von Nintendo. Fan-Projekt für die Schule. Nicht Offiziell</p>
+          <div class="footer-links">
+            <a href="#hero">Start</a>
+            <a href="#categories">Kategorien</a>
+            <a href="#arsenal">Arsenal</a>
+            <a href="#stats">Stats</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Weapon Detail Modal -->
+    <div class="modal-overlay" id="weaponModal">
+      <div class="modal">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <div class="modal-image" id="modalImage"></div>
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <span class="modal-category" id="modalCategory"></span>
+        </div>
+        <div class="modal-body">
+          <div class="modal-stats" id="modalStats"></div>
+          <div class="modal-details">
+            <div class="modal-sub" id="modalSub"></div>
+            <div class="modal-special" id="modalSpecial"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
