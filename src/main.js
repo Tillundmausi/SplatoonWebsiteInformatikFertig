@@ -1,4 +1,5 @@
-const CDN = 'https://cdn.wikimg.net/en/splatoonwiki/images';
+document.addEventListener('DOMContentLoaded', () => {
+  const CDN = 'https://cdn.wikimg.net/en/splatoonwiki/images';
 
 const subIcons = {
   'Klecks-Bombe': `${CDN}/8/81/S3_Weapon_Sub_Splat_Bomb_Flat.png`,
