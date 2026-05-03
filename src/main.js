@@ -131,17 +131,6 @@ const weapons = [
   { name: 'Recycled Brella 24 Mk I', category: 'brella', damage: 65, range: 48, fireRate: 42, sub: 'Giftnebel', special: 'Killer-Wal 5.1', icon: `${CDN}/d/d0/S3_Weapon_Main_Recycled_Brella_24_Mk_I.png` },
 ];
 
-const categoryLabels = {
-  shooter: 'Shooter',
-  roller: 'Roller',
-  charger: 'Charger',
-  slosher: 'Slosher',
-  splatling: 'Splatling',
-  blaster: 'Blaster',
-  brush: 'Pinsel',
-  brella: 'Brella',
-};
-
 function createWeaponCard(weapon) {
   const card = document.createElement('div');
   card.className = 'weapon-card';
