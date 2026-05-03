@@ -347,6 +347,6 @@ document.querySelectorAll('.categories, .specials, .stats-bar').forEach(section 
 });
 
 // Initial render
-renderWeapons();
+  renderWeapons();
 
 });
